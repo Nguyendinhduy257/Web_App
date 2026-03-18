@@ -3,7 +3,7 @@ $servername = "localhost";
 $username   = "root";
 $password   = "";
 $dbname     = "QLSV";
-
+//truy cập URL: http://localhost:8080/Web_App/login.php
 // tạo kết nối
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
